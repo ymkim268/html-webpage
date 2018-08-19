@@ -1,0 +1,309 @@
+/* Kim, Young Min (kim268) */
+/* contains CSS style for main page file1.html*/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding-top: 5%;
+                
+    width: 100%;
+    min-height: 100%;
+                
+    font-family: sans-serif;
+    font-size: 100%;
+                
+    background-color: white;
+    position: relative;
+                
+}
+        
+a {
+    text-decoration: none;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.5em;     
+    color: white;
+}
+
+a.botlink:link, a.botlink:visited {
+    color: white;
+                
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    text-transform: uppercase; 
+                
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+}
+
+a.botlink:hover {
+    color: black;
+    background-color: white;
+}
+
+span.tel {
+    color: goldenrod;
+}
+span.email {
+    color: goldenrod;
+}
+
+div#corpinfo_wrapper p {
+    font-size: 0.55em;
+    font-weight: lighter;
+}
+
+
+div#top_wrapper {
+    height: 60%;
+    width: 100%;
+}
+div#bot_wrapper {
+    height: 40%;
+    width: 100%;
+                
+    bottom: 0;
+    position: absolute;
+                
+    background-color: black;
+}
+
+/* top element */
+div#top {
+    margin: auto; /* center */
+                
+    width: 40%; height: 150px;
+                
+    background-color: black;
+    text-align: center;
+    color: white;
+                
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+                
+    position: relative;
+                
+    font-weight: lighter;
+} 
+div#top h1 {
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: lighter;
+                
+    height: 10%;
+    left: 10%;
+    right: 10%;
+                
+    padding-top: 10%;
+}
+span#top_left {
+    font-size: 0.6em;
+    font-weight: lighter;
+    text-decoration: underline;
+                
+    position: relative;
+    display: inline-block;
+    top: -0.5em;
+                 
+}
+div#top h2#top_right {
+    font-size: 4.5em;
+    font-weight: normal;
+                
+    position: relative;
+    display: inline-block;
+    top: -0.8em;
+}
+div#top a {
+    color: white;
+}
+
+/* hello_img element */
+div#hello_img {
+    position: relative;
+    padding-bottom: 7%;
+}
+div#hello_img img {
+    position: absolute;
+    width: 100%;
+}
+
+/* main element */
+div#main {
+    position: relative;
+                
+    text-align: center;
+    font-size: 0.7em;
+    color: black;
+}
+
+div#main p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+div#main p#main_text {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: lighter;
+    letter-spacing: 0.35em;
+    color: darkgoldenrod;
+    text-align: center;
+}
+div#main a:link, a:visited {
+    color: black;
+                
+    letter-spacing: 0.3em;
+    padding: 1.5em 4em;
+    text-decoration: none;
+    text-transform: uppercase; 
+                
+    border-color: black;
+    border-style: solid;
+}
+div#main a:hover {
+    color: white;
+    background-color: black;
+}
+div#main h3#touch_button {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    letter-spacing: 0.4em;
+                
+    font-size: 0.9em;
+    font-weight: lighter;
+    text-align: center;
+                
+    padding-bottom: 5%;            
+}
+/* -- end main element -- */
+
+/* nav element */
+div#nav_wrapper {
+    width: 100%;
+    background-color: black;
+    display: flex;
+                
+    padding-top: 1%;
+    color: white;
+}
+div#nav_wrapper a {
+    text-decoration: none;
+}
+div#nav_wrapper a:hover {
+    text-decoration: underline;
+}
+
+div#nav_article {
+    width: 40%;
+    float:left;
+                
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+                
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+                
+    border-right-color: darkgray;
+                
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+div#nav_signup {
+    width: 60%;
+    float:right;
+                
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.5em;     
+                
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+                
+    border-left-color: black;
+                
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+    
+div#nav_signup h3 {
+    color: goldenrod;
+}       
+div#nav_signup input {
+    margin-left: 5%;
+    margin-right: 1%;
+    width: 45%;
+                
+    padding: 2%;
+    color: gray;
+}
+div#nav_signup a.botlink {
+    padding: 2em 4em;
+}
+
+
+/* -- corpinfo elements -- */
+div#corpinfo_wrapper {
+    width: 100%;
+    display: flex;
+                
+    color: white;
+    background-color: black;
+                
+    border-top-color: darkgray;
+    border-top-style: solid;
+    border-top-width: thin;
+                
+    padding-top: 2%;
+}
+div#headquarter {
+    width: 40%;
+    float: left;
+                
+    padding-left: 3%;
+}
+div#h_info {
+    width: 100%;
+    display: flex;
+}
+div#h_address {
+    width: 50%;
+    float: left;
+}
+div#h_contact {
+    width: 50%;
+    float: right;
+                
+    padding-top: 2em;
+}
+div#headquarter a.botlink {
+    padding: 0.5em 2em;
+}
+div#offices {
+    width: 60%;
+    float: right;
+}
+div.branch_office {
+    width: 30%;
+    float: left;
+                
+    word-wrap: break-word;
+    margin-right: 2%;
+}
+
+a.email_links {
+    text-decoration: underline;
+    color: white;
+}
